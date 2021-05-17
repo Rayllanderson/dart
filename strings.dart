@@ -18,7 +18,7 @@ void main(){
   String text = 'hello';
   print(text.toUpperCase()); // HELLO
   print(text.toLowerCase()); // hello
-  print(text[0].toUpperCase() + text.substring(1).toLowerCase()); //hello
+  print(text[0].toUpperCase() + text.substring(1).toLowerCase()); //Hello
   print(text.indexOf("e")); // 1
   print(text.contains("e")); // true
   print(text.contains("987")); // false
