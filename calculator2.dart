@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'util.dart';
+
 void main() {
   print('Calculator 2.0');
   double number1 = promptDouble('Number one');
@@ -25,12 +27,6 @@ void main() {
   }
 }
 
-double promptDouble(String text) {
-  print('$text: ');
-  //what's the '?'? So, like typescript, the variable 'number' can be a String or null;
-  String? number = stdin.readLineSync();
-  return double.parse(number!); //and here, I'm getting the number as string
-}
 
 void printMenuOptions() {
   print('What do you want to do?');
