@@ -1,0 +1,15 @@
+#to-do-input{
+    width: 300px;
+}
+
+.card{
+    border-radius: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}

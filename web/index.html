@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>TO-DO LIST</title>
+    <script defer src="main.dart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container p-3 mt-5 card">
+
+    <h2 class="text-center mt-5">TO-DO LIST</h2>
+    <div class="d-flex justify-content-center mt-3">
+        <input class="form-control" id="to-do-input" type="text" placeholder="O que precisa ser feito?">
+        <button id="to-do-button" class="btn btn-primary mx-2"> Adicionar</button>
+    </div>
+
+    <div class="d-flex justify-content-center mt-4">
+        <ul id="to-do-list" class="list-group">
+        </ul>
+    </div>
+    <div class="d-flex justify-content-center mt-2">
+        <button id="delete-all-button" class="btn btn-danger">Limpar lista</button>
+    </div>
+</div>
+</body>
+</html>
